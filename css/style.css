@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, rgb(139, 226, 204), rgb(118, 223, 255));
+}
+
+.albums {
+    display: grid;
+    gap: 20px;
+    /*span elements as long as there in is enough space*/
+    grid-template-columns: repeat(auo-fit, minmax(300px, 1fr))
+}
